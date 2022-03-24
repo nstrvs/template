@@ -18,10 +18,6 @@ npm install --save-dev webpack webpack-cli webpack-dev-server webpack-merge clea
 
 npm install --save-dev eslint stylint
 
-# Template Engine
-
-npm install --save pug
-
 # Preprocessors
 
 npm install --save-dev sass
