@@ -16,7 +16,7 @@ npm install --save-dev eslint stylint
 
 # Loaders
 
-npm install --save-dev css-loader postcss-loader babel-loader sass sass-loeader pug pug-loader file-loader raw-loader glslify-loader
+npm install --save-dev css-loader postcss-loader babel-loader sass sass-loader pug pug-loader file-loader raw-loader glslify-loader
 
 #Libraries
 
