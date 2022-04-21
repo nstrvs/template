@@ -1,29 +1,28 @@
 {
-  "name": "template",
+  "name": "nestor-valles",
   "version": "1.0.0",
   "description": "Bolierplate for modern web development",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently --kill-others \"npm run backend:development\" \"npm run frontend:development\"",
+    "start": "concurrently --kill-others \"npm run backend:dev\" \"npm run frontend:dev\"",
     "backend:build": "node app.js",
-    "backend:development": "nodemon app.js",
+    "backend:dev": "nodemon app.js",
     "frontend:build": "webpack --progress --config webpack.config.build.js",
-    "frontend:development": "webpack serve --progress --config webpack.config.development.js"
+    "frontend:dev": "webpack serve --progress --config webpack.config.dev.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nstrvs/template.git"
+    "url": "git+https://github.com/nstrvs/portfolio.git"
   },
-  "author": "",
+  "author": "Nestor Valles",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nstrvs/template/issues"
+    "url": "https://github.com/nstrvs/portfolio/issues"
   },
-  "homepage": "https://github.com/nstrvs/template#readme",
   "devDependencies": {
+    "@babel/core": "^7.17.9",
     "babel-loader": "^8.2.4",
     "clean-webpack-plugin": "^4.0.0",
-    "concurrently": "^7.0.0",
     "copy-webpack-plugin": "^10.2.4",
     "css-loader": "^6.7.1",
     "eslint": "^8.11.0",
@@ -39,19 +38,22 @@
     "mini-css-extract-plugin": "^2.6.0",
     "ogl": "^0.0.89",
     "postcss-loader": "^6.2.1",
-    "pug-loader": "^2.4.0",
     "raw-loader": "^4.0.2",
     "sass": "^1.49.9",
     "sass-loader": "^12.6.0",
     "stylint": "^2.0.0",
-    "three": "^0.138.3",
     "webpack": "^5.70.0",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.7.4",
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
+    "@prismicio/client": "^4.0.0",
+    "concurrently": "^7.1.0",
+    "dotenv": "^16.0.0",
     "express": "^4.17.3",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "prismic-dom": "^2.2.7",
+    "pug": "^3.0.2"
   }
 }

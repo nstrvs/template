@@ -8,9 +8,9 @@ html(lang="eng")
 
     base(href="/")
 
-    title 
+    title Nestor Valles
 
-    meta(name="description" content=" ")
+    meta(name="description" content="Digital designer and developer")
 
     link(rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png")
     link(rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png")
@@ -23,6 +23,7 @@ html(lang="eng")
     //- meta(property="og:title" content=meta.data.title)
     //- meta(property="og:description" content=meta.data.description)
     //- meta(property="og:image" content=meta.data.image ? meta.data.image.url : '')
+
     //- meta(name="twitter:card" content="summary")
     //- meta(name="twitter:title" content=meta.data.title)
     //- meta(name="twitter:description" content=meta.data.description)
@@ -35,4 +36,7 @@ html(lang="eng")
     include ./partials/navigation
 
     .content#content(data-template=template)
-      block content 
+      block content
+    
+    include ./partials/footer
+
