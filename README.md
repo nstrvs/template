@@ -1,6 +1,6 @@
 # Overview
 
-This is a bolierplate for JAMstack web development using Prismic and Express for the backend, and vanilla JavaScrypt for the front end.
+This is a bolierplate for JAMstack web development using Prismic and Express for the backend, and vanilla JavaScript for the front end.
 
 # Getting started
 
