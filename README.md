@@ -8,6 +8,3 @@ You'll need to have installed Node and NPM to run this repository locally.
 
 ```
 npm install
-
-
-
